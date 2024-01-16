@@ -1,37 +1,40 @@
-Hangman Game
-Hangman is a classic word guessing game. This project implements a simple version of Hangman in Python. The player tries to guess the word by suggesting letters within a certain number of guesses.
+# Hangman Game in Python
 
-Features
-Random word selection from a predefined list.
-The player is allowed a fixed number of incorrect guesses.
-Repeated letters in words are handled correctly.
-The game tracks and displays guessed letters and remaining lives.
-Requirements
+A simple and interactive implementation of the classic word-guessing game Hangman, written in Python. This project provides a fun way to practice and understand basic Python concepts like loops, conditionals, and list handling.
+
+## Features
+
+- **Random Word Selection**: Each game randomly picks a word from a predefined list.
+- **Guess Tracking**: Correctly guessed letters are displayed, alongside placeholders for yet-to-be-guessed letters.
+- **Limited Guesses**: The player has a fixed number of lives, adding challenge to the game.
+- **Repeated Letter Handling**: Accurately displays all occurrences of correctly guessed letters.
+
+User-Friendly Interaction: Simple console-based interface for input and output.
+Getting Started
+Prerequisites
 Python 3.x
-How to Play
-Clone/download the repository to your local machine.
-Run the Python script in a terminal or an IDE.
-The game will randomly select a word and display a series
-of underscores representing each letter in the word.
-4. Type in your guess (a single letter) and press Enter.
+Installation
+Clone the repository to your local machine:
+git clone https://github.com/yourusername/hangman-game.git
+cd hangman-game
 
-If your guess is in the word, the letter will be revealed in its correct positions.
-If your guess is incorrect, you lose one life.
-The game continues until you either guess the word correctly or run out of lives.
-If you guess the word correctly, you win! If you run out of lives, the game will reveal the word and end.
-Sample Word List
-The default word list includes:
-
-apple
-strawberry
-peach
-orange
-watermelon
-You can modify the word list in the script to include more words or different categories.
-
-Customization
-num_lives: Change the number of lives (guesses) allowed (default is 5).
-word_list: Modify this list to include words of your choice.
 Running the Game
-To run the game, navigate to the folder containing the script and run the following command:
+To play the game, run the script in your terminal:
 python hangman.py
+Follow the on-screen instructions to start guessing letters.
+
+How to Play
+The game starts by randomly selecting a word from a predefined list.
+Type in a letter as your guess and press Enter.
+If the letter is in the word, it will be revealed;
+otherwise, you lose one life.
+
+Continue guessing letters until you either complete the word or run out of lives.
+Customization
+You can modify the word_list variable in the script to add or change words.
+
+Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check issues page.
+
+License
+This project is open source and available under the MIT License.
